@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    section{
+      padding: 60px 0;
+    }
+    i{
+      color: #dc3545;
+    }
+  </style>
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- bootstrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body class="m-0 p-0">
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-lg my-4 mt-4">
+      <a class="navbar-brand" href="#">
+        <img class="w-25" src="../node_modules/bootstrap-icons/icons/book-half.svg" alt="">
+        <span class="fw-bold">Da Book</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link mx-3" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-3" href="#price">Price</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-3" href="#review">Review</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-3" href="#contact">
+              <img src="../node_modules/bootstrap-icons/icons/question-circle.svg" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="">
+    <div class="container-lg my-5">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-5 text-md-start text-center">
+          <h1 class="display-2">Da Book</h1>
+          <h2 class="display-5 text-muted">How to be a <span class="text-danger">monster?</span></h2>
+          <p class="lead text-muted fs-5 my-3">This book can teach you how to be a <span class="text-danger text-decoration-line-through">man</span> monster</p>
+          <a href="#" class="btn btn-outline-danger btn-lg my-3">Buy Now</a>
+        </div>
+        <div class="col-md-5 d-none d-md-block">
+          <div class="text-center">
+            <img class="img-fluid w-50"  src="../assets/book.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="mt-5" id="about">
+    <div class="container-fluid">
+      <div class="container-lg">
+        <div class="text-center">
+          <h1 class="display-6 lead">The lesson will you learn</h1>
+        </div>
+        <div class="row jusitfy-content-center align-items-center my-5">
+          <div class="col-md-5 text-center">
+            <img src="../assets/book front prespektif.png" alt="">
+          </div>
+          <div class="col-md-6 my-5">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Chapter 1
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <h1 class="fw-bold fs-5">What the difference of boy, man, and monster?</h1>
+                    <p class="lead fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, delectus magni deserunt saepe veniam voluptatum architecto sapiente, hic nulla in nesciunt a, sunt deleniti debitis vero minima sint dolorem consequatur.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Chapter 2
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <h1 class="fw-bold fs-5">why do boys cry easily?</h1>
+                    <p class="lead fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, delectus magni deserunt saepe veniam voluptatum architecto sapiente, hic nulla in nesciunt a, sunt deleniti debitis vero minima sint dolorem consequatur.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Chapter 3
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <h1 class="fw-bold fs-5">Why do men get heartbroken so easily?</h1>
+                    <p class="lead fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, delectus magni deserunt saepe veniam voluptatum architecto sapiente, hic nulla in nesciunt a, sunt deleniti debitis vero minima sint dolorem consequatur.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-light mt-5" id="price">
+    <div class="container-fluid">
+      <div class="container-lg">
+        <div class="text-center">
+          <h1 class="display-6 lead">Choose a pricing plan to suit you</h1>
+        </div>
+        <div class="row align-items-center justify-content-center my-5 g-0">
+          <div class="col-10 col-lg-4 col-xl-3">
+            <div class="card border-0">
+              <div class="card-body text-center py-4">
+                <h4 class="card-title">Starter Edition</h4>
+                <p class="card-subtitle lead">eBook download only</p>
+                <h1 class="text-danger display-4 fw-bold my-4">$19.99</h1>
+                <p class="card-text lead text-muted mx-4 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi perferendis deserunt a id autem magni architecto itaque tenetur unde!</p>
+                <a href="#" class="btn btn-outline-danger my-2">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-xl-4">
+            <div class="card border-2 border-danger">
+              <div class="card-header text-center text-danger">Most Popular</div>
+              <div class="card-body text-center py-4">
+                <h4 class="card-title">Complete Edition</h4>
+                <p class="card-subtitle lead">eBook & all updates</p>
+                <h1 class="text-danger display-4 fw-bold my-4">$25.99</h1>
+                <p class="card-text lead text-muted mx-5 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor maiores reiciendis quisquam dicta alias? Facilis cumque, sed itaque dolore pariatur aspernatur beatae praesentium sint quas adipisci quos laudantium enim. Inventore!</p>
+                <a href="#" class="btn btn-outline-danger my-4">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4 col-xl-3">
+            <div class="card border-0">
+              <div class="card-body text-center py-4">
+                <h4 class="card-title">Ultimate Edition</h4>
+                <p class="card-subtitle lead">download, all updates & extras</p>
+                <h1 class="text-danger display-4 fw-bold my-4">$32.99</h1>
+                <p class="card-text lead text-muted mx-4 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi perferendis deserunt a id autem magni architecto itaque tenetur unde!</p>
+                <a href="#" class="btn btn-outline-danger my-2">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="review">
+    <div class="container-fluid">
+      <div class="container-lg">
+        <div class="text-center">
+          <h1 class="display-6 lead">What they say??</h1>
+        </div>
+        <div class="d-flex justify-content-center pt-5">
+          <div class="col-12 col-md-8">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <h1 class="fs-5 fw-bold text-danger">Neville Jeremy Orotano Laia</h1>
+                <p class="lead fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatibus amet porro, itaque ut nihil suscipit aspernatur consectetur quas mollitia quidem dolorem eaque possimus nemo asperiores velit quisquam esse, tempore sit accusantium adipisci odio est quibusdam. Nesciunt minima ducimus fugit distinctio eius, assumenda quod dolores? Deserunt ad expedita quia ketjeh ril no fek!</p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="list-group-item">
+                <h1 class="fs-5 fw-bold text-danger">Afriza Gilleon Ginting</h1>
+                <p class="lead fs-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia omnis excepturi harum suscipit incidunt numquam, sunt libero iusto, neque minima ratione accusamus, quod quisquam eius aperiam nesciunt quis tenetur repellat unde sint fugit. Expedita at, aperiam voluptate asperiores iste recusandae fugit quaerat officiis, mollitia commodi ut tempore rerum totam sekarang abang jadi lebih berani mengambil resiko jo... mantap buku nya!</p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="list-group-item">
+                <h1 class="fs-5 fw-bold text-danger">Sandika Galih</h1>
+                <p class="lead fs-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda eligendi, minima aliquam nam placeat beatae similique fugit quibusdam totam dolor deserunt cum voluptas exercitationem eaque fugiat odio modi ipsa iste commodi velit suscipit. Deserunt quam illum cumque eum tenetur vitae, voluptatem rerum voluptates, dolorem quaerat, ab quos accusamus terimakasih joan, sekarang saya lebih pede saat live streaming diyoutube, yang lain wajib nyoba ni buku!.</p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="list-group-item">
+                <h1 class="fs-5 fw-bold text-danger">Dea Afrizal</h1>
+                <p class="lead fs-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus cum ipsam numquam porro suscipit rem doloribus itaque excepturi unde, maiores ipsa ex libero? Molestias quidem accusamus illum error eaque ea placeat asperiores, sunt minima eveniet perferendis, molestiae et ducimus repellendus. Quas voluptatibus aliquid est repellendus ea. Totam quibusdam illum keren banget cuy joan!</p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="list-group-item">
+                <h1 class="fs-5 fw-bold text-danger">Bill Gates</h1>
+                <p class="lead fs-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ratione, quod, ea nihil iusto unde officiis nobis placeat asperiores, fugiat quas? Dolor assumenda necessitatibus provident similique optio fugiat inventore ipsa voluptatum at velit atque sunt voluptate omnis ducimus saepe, doloremque culpa repellat illum amet harum rem sint earum hic mantab kids!</p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+    </div>
+  </section>
+  <section class="bg-light" id="contact">
+    <div class="container-xxl">
+      <div class="container-lg">
+        <div class="text-center">
+          <h1 class="display-6 lead">Get In Touch With Me</h1>
+          <p class="text-muted fs-5">Questions to ask? contact me</p>
+        </div>
+        <main class="d-flex justify-content-center my-5">
+          <div class="col-10 col-md-5 my-5">
+            <form action="">
+              <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">
+                  <i class="bi bi-envelope-fill"></i>
+                </span>
+                <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="addon-wrapping">
+              </div>
+              <div class="input-group flex-nowrap mt-5">
+                <span class="input-group-text" id="addon-wrapping">
+                  <i class="bi bi-person-fill"></i>
+                </span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+              </div>
+              <div class="form-floating mt-5">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Your query...</label>
+              </div>
+              <div class="text-center mt-5">
+                <button type="submit" class="btn btn-outline-danger">Submit</button>
+              </div>
+            </form>
+          </div>
+        </main>
+      </div>
+    </div>
+  </section>
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <!-- popper js -->
+  <script src="../js/popper.min.js"></script>
+</body>
+</html>
